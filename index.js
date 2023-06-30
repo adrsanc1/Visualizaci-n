@@ -24,9 +24,6 @@ d3.csv("./Carrefour_cleaning.csv", function(error, data) {
     .y("value")
     .time("order_date")
     .title("Cantidad de productos vendidos por Categorías y Fecha")
-    .xLabel("Fecha")
-    .yLabel("Conteo")
-    .legend(true)
     .ui([
       {
         method: "type",
@@ -36,6 +33,5 @@ d3.csv("./Carrefour_cleaning.csv", function(error, data) {
     ])
     .draw();
 });
-
 
 
