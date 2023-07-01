@@ -1,10 +1,10 @@
 // Import stylesheets
 import './style.css';
 
-var data = [
+const data = [
   {
     "order_date": "2020-10",
-    "Al_Sharqiya": 0,
+    "Al_Sharqiya": 0.0,
     "Alexandria": 773225.078,
     "Cairo": 2754935.17941,
     "Giza": 354950.83945,
@@ -110,7 +110,7 @@ var data = [
     "Mansoura": 1080086.0395,
     "Tanta": 1294651.5035
   }
-]
+];
 
 
 const visualization = d3plus.viz()
